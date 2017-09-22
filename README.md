@@ -2,13 +2,13 @@
 
 Fingertip tracking/ Hand writing in the air/ Project the 3D space coordinates into 3D space plane points, then to 2D space plane.
 
-# 1.How to import the Leap Motion Module with Python???
+## 1.How to import the Leap Motion Module with Python???
 It can be solved by the methods described in the official website of Leap Motion: 
 https://developer.leapmotion.com/documentation/v2/python/devguide/Project_Setup.html#id12;
 
 Here, I keep the libraries in a seperate directory from my source code, and then add the path to Leap Motion libraries to the Python sys.path list before importing the Leap module.
 
-# 2.The processes of hand writing digits/letters projection from 3D trajectory to 2D trajectory.
+## 2.The processes of hand writing digits/letters projection from 3D trajectory to 2D trajectory.
 2.1 Tracking the fingertip of index finger with Leap Motion to obtain the trajectory of hand writing digits/letters.<br>
 2.2 Projecting 3D trajectory on the 3D space plane.<br>
 1). The 3D space plane is made by three points obtained from the trajectory, which are the start point, the middle point and the end point of the trajectory, respectively.<br>
@@ -30,7 +30,7 @@ Here are some results of the three steps described above:
 ![3D space plane](https://github.com/zttara/Hand_writing-in-the-air-with-Leap-Motion/blob/master/Examples%20of%20projection%20results/number-2/n2-2.png)-->
 ![2D plane](https://github.com/zttara/Hand_writing-in-the-air-with-Leap-Motion/blob/master/Examples%20of%20projection%20results/number-2/n2_3.png)
 
-# 3. Further studies
+## 3. Further studies
 1). To find a more proper space plane for projection;<br>
 2). To correct the direction of projection results;<br>
 3). The further recognition of projection results.<br>
