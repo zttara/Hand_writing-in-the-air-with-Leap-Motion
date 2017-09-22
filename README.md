@@ -9,14 +9,14 @@ https://developer.leapmotion.com/documentation/v2/python/devguide/Project_Setup.
 Here, I keep the libraries in a seperate directory from my source code, and then add the path to Leap Motion libraries to the Python sys.path list before importing the Leap module.
 
 # 2.The processes of hand writing digits/letters projection from 3D trajectory to 2D trajectory.
-## 2.1 Tracking the fingertip of index finger with Leap Motion to obtain the trajectory of hand writing digits/letters.
-## 2.2 Projecting 3D trajectory on the 3D space plane.
-### 2.2.1 The 3D space plane is made by three points obtained from the trajectory, which are the start point, the middle point and the end point of the trajectory, respectively.
-### 2.2.2 Computing the coordinates of projection points of the trajectory on the 3D space plane, and then the results of projection can be got.
+2.1 Tracking the fingertip of index finger with Leap Motion to obtain the trajectory of hand writing digits/letters.<br>
+2.2 Projecting 3D trajectory on the 3D space plane.<br>
+1). The 3D space plane is made by three points obtained from the trajectory, which are the start point, the middle point and the end point of the trajectory, respectively.<br>
+2). Computing the coordinates of projection points of the trajectory on the 3D space plane, and then the results of projection can be got.<br>
 
-## 2.3 Transfering the projection results on 3D space plane into 2D plane.
-### 2.3.1 Finding two unit vectors that are perpendicular to each other on the 3D space plane by using above three points.
-### 2.3.2 Changing the 3d coordinates into 2d coordinates on the plane made by the two unit vectors.
+2.3 Transfering the projection results on 3D space plane into 2D plane.<br>
+1). Finding two unit vectors that are perpendicular to each other on the 3D space plane by using above three points.<br>
+2). Changing the 3d coordinates into 2d coordinates on the plane made by the two unit vectors.<br>
 
 Here are some results of the three steps described above:
 
@@ -31,6 +31,6 @@ Here are some results of the three steps described above:
 ![2D plane](https://github.com/zttara/Hand_writing-in-the-air-with-Leap-Motion/blob/master/Examples%20of%20projection%20results/number-2/n2_3.png)
 
 # 3. Further studies
-1) To find a more proper space plane for projection;
-2) To correct the direction of projection results;
-3) The further recognition of projection results.
+1). To find a more proper space plane for projection;<br>
+2). To correct the direction of projection results;<br>
+3). The further recognition of projection results.<br>
