@@ -8,7 +8,7 @@ https://developer.leapmotion.com/documentation/v2/python/devguide/Project_Setup.
 
 Here, I keep the libraries in a seperate directory from my source code, and then add the path to Leap Motion libraries to the Python sys.path list before importing the Leap module.
 
-## 2.The processes of hand writing digits/letters projection from 3D trajectory to 2D trajectory.
+## 2.The processes of trajectory projection of hand writing digits/letters from 3D to 2D.
 2.1 Tracking the fingertip of index finger with Leap Motion to obtain the trajectory of hand writing digits/letters.<br>
 2.2 Projecting 3D trajectory on the 3D space plane.<br>
 1). The 3D space plane is made by three points obtained from the trajectory, which are the start point, the middle point and the end point of the trajectory, respectively.<br>
